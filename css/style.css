@@ -1,4 +1,4 @@
-* {
+*{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -13,60 +13,66 @@ header {
 }
 
 body {
-  background-color: #361b32;
+    background-color: #361b32;
 }
 
-h1 {
+h1{
   color: #538482;
   font-family: "Fleur De Leah", cursive;
   font-weight: 400;
   font-style: normal;
   font-size: 50px;
   text-align: center;
-}    
+}
+    
 
-h2 {
-  text-align: right;
-  color: #985470;
-  font-family: "Caramel", cursive;
+h2{
+color: #985470;
+font-family: "Caramel", cursive;
   font-weight: 400;
   font-style: normal;
   font-size: 40px;
 }
 
-h5 {
-  font-size: 15px;
-  color: #a8a975;
-  font-family:'Times New Roman', Times, serif
+
+h5{
+font-size: 15px;
+color: #a8a975;
+font-family:'Times New Roman', Times, serif
 }
 
 p {
-  text-align: center;
   color: #a8a975;
   font-family:'Times New Roman', Times, serif
 }
 
-a {
-  display: flex;
+
+a{
+   display: grid;
   place-items: center;
   background-color: #111027;
-  color: #6f8768;
-  text-decoration: none;
-  font-family: "Caramel", cursive;
+   color: #6f8768;
+   text-decoration: none;
+   font-family: "Caramel", cursive;
   font-weight: 400;
   font-style: normal;
   font-size: 25px;
 }
 
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+li{
+    color: #907c85;
+font-family: "Caramel", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 
+nav a{
+  display: grid;
+  place-items: center;
+  background-color: #111027;
+}
 
 #Logo {
   width: 150px;
   height: 150px;
 }
-
