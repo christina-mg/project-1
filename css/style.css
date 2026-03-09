@@ -1,32 +1,43 @@
-
-body {
-    background-color: #361b32;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-h1{
-    color: #538482;
-    font-family: "Fleur De Leah", cursive;
+header {
+  display: flex;
+  flex-direction:row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  background-color: #111027;
+}
+
+body {
+  background-color: #361b32;
+}
+
+h1 {
+  color: #538482;
+  font-family: "Fleur De Leah", cursive;
   font-weight: 400;
   font-style: normal;
   font-size: 50px;
   text-align: center;
-}
-    
+}    
 
-h2{
-text-align: right;
-color: #985470;
-font-family: "Caramel", cursive;
+h2 {
+  text-align: right;
+  color: #985470;
+  font-family: "Caramel", cursive;
   font-weight: 400;
   font-style: normal;
   font-size: 40px;
 }
 
-
-h5{
-font-size: 15px;
-color: #a8a975;
-font-family:'Times New Roman', Times, serif
+h5 {
+  font-size: 15px;
+  color: #a8a975;
+  font-family:'Times New Roman', Times, serif
 }
 
 p {
@@ -35,29 +46,16 @@ p {
   font-family:'Times New Roman', Times, serif
 }
 
-a{
-   display: grid;
+a {
+  display: flex;
   place-items: center;
   background-color: #111027;
-   color: #6f8768;
-   text-decoration: none;
-   font-family: "Caramel", cursive;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 25px;
-}
-
-li{
-  color: #907c85;
+  color: #6f8768;
+  text-decoration: none;
   font-family: "Caramel", cursive;
   font-weight: 400;
   font-style: normal;
-}
-
-nav a{
-  display: grid;
-  place-items: center;
-  background-color: #111027;
+  font-size: 25px;
 }
 
 img {
@@ -66,13 +64,9 @@ img {
   margin-right: auto;
 }
 
-#art { 
-  margin-left: 55%;
-  width: 600px;
-}
 
-#gif {
-  margin-right: 75%;
-  width: 300px;
+#Logo {
+  width: 150px;
+  height: 150px;
 }
 
